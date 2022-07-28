@@ -20,7 +20,7 @@
 
 .hero__subtitle {
     max-width: 480px;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 300;
     font-size: 22px;
     line-height: 29px;
@@ -38,7 +38,16 @@
     padding: 11px 11px;
     max-width: 232px;
     width: 100%;
-    border: none;
+    border: 1px solid transparent;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+    border-color: #1c88eb;
+}
+
+.hero__btn:active {
+    background-color: #1c88eb;
 }
 
 @media (max-width: 1024px) {
