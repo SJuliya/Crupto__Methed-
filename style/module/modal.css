@@ -116,6 +116,7 @@
 
     .modal__container {
         padding: 20px 13px 36px;
+        border-radius: 16px;
     }
 
     .modal__title {

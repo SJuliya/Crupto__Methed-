@@ -1,0 +1,23 @@
+.notice {
+    background: #08475e;
+    z-index: 998;
+    overflow: hidden;
+}
+
+.notice__text {
+    padding: 20px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width: 720px) {
+    .notice__text {
+        padding: 15px 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
